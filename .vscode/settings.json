@@ -1,0 +1,18 @@
+{
+    "python.pythonPath": "C:/ProgramData/Anaconda3/envs/PatchCore/python.exe",
+    "python.linting.enabled": true, // リンターを有効に
+    "python.linting.pylintEnabled": false, // pyLintをオフに
+    "python.linting.flake8Enabled": true, // flake8をオンに
+    "python.linting.lintOnSave": true, // 保存時にリンターが効くように
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E203,W503,W504"
+    ],
+    "python.formatting.provider": "black", // フォーマッターをblackに設定
+    "editor.formatOnSave": true, // 保存時にフォーマットをオン
+    "editor.formatOnType": true, // タイピング時にフォーマットをオン
+    "editor.formatOnPaste": false, // 貼り付け時のフォーマットはオフ
+    "python.formatting.blackArgs": [
+        "--line-length=120"
+    ]
+}
