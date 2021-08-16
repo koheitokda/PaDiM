@@ -1,3 +1,13 @@
+# 【公式実装にWebカメラ対応機能を追加】
+* mapin.py:
+    * ほぼ公式実装　trainとtestが一体
+* original_data.py:
+    * train()		# 学習用
+	* test()		# 画像を使って予測
+	* capture()	# USBカメラで撮影して予測(1枚ごとに予測、連続動作可能)
+
+～～～～　以下公式GitHubと同じ説明資料　～～～～
+
 # PaDiM-Anomaly-Detection-Localization-master
 This is an implementation of the paper [PaDiM: a Patch Distribution Modeling Framework for Anomaly Detection and Localization](https://arxiv.org/pdf/2011.08785).   
 
